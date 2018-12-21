@@ -23110,6 +23110,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <part name="D6" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD323-R" package3d_urn="urn:adsk.eagle:package:43437/1"/>
 <part name="D7" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD323-R" package3d_urn="urn:adsk.eagle:package:43437/1"/>
 <part name="D8" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD323-R" package3d_urn="urn:adsk.eagle:package:43437/1"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 </parts>
 <sheets>
 <sheet>
@@ -23536,6 +23537,10 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <attribute name="NAME" x="9.6774" y="152.4" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="12.4714" y="152.4" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="R8" gate="G$1" x="48.26" y="81.28">
+<attribute name="NAME" x="44.45" y="82.7786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="44.45" y="77.978" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -23941,6 +23946,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <pinref part="CON2" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="91.44" x2="50.8" y2="91.44" width="0.1524" layer="91"/>
 <label x="58.42" y="91.44" size="1.778" layer="95"/>
+<wire x1="50.8" y1="91.44" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MIC_N" class="0">
@@ -23971,6 +23977,11 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <junction x="53.34" y="73.66"/>
 <label x="55.88" y="73.66" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="53.34" y1="81.28" x2="58.42" y2="81.28" width="0.1524" layer="91"/>
+<label x="58.42" y="81.28" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="RCV_N" class="0">
 <segment>
@@ -23992,8 +24003,14 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </segment>
 <segment>
 <pinref part="CON2" gate="G$1" pin="2"/>
-<wire x1="33.02" y1="78.74" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="78.74" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
 <label x="58.42" y="78.74" size="1.778" layer="95"/>
+<wire x1="40.64" y1="78.74" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="78.74" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="43.18" y1="81.28" x2="40.64" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="81.28" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
+<junction x="40.64" y="78.74"/>
 </segment>
 </net>
 <net name="RCV_P" class="0">
@@ -24018,6 +24035,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <pinref part="C25" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="88.9" x2="55.88" y2="88.9" width="0.1524" layer="91"/>
 <label x="58.42" y="88.9" size="1.778" layer="95"/>
+<wire x1="55.88" y1="88.9" x2="58.42" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -24035,13 +24053,14 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="CON2" gate="G$1" pin="3"/>
-<wire x1="33.02" y1="81.28" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="CON2" gate="G$1" pin="5"/>
-<wire x1="33.02" y1="88.9" x2="43.18" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="88.9" x2="38.1" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="C25" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="81.28" x2="43.18" y2="88.9" width="0.1524" layer="91"/>
-<junction x="43.18" y="88.9"/>
+<pinref part="CON2" gate="G$1" pin="3"/>
+<wire x1="38.1" y1="88.9" x2="43.18" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="81.28" x2="38.1" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="81.28" x2="38.1" y2="88.9" width="0.1524" layer="91"/>
+<junction x="38.1" y="88.9"/>
 </segment>
 </net>
 <net name="N$5" class="0">
