@@ -22126,7 +22126,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <part name="T1" library="zetex" library_urn="urn:adsk.eagle:library:418" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:30981/1" value="FDV301N"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="180"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$1" library="parts-fibocom" library_urn="urn:adsk.eagle:library:7452888" deviceset="G510" device="" package3d_urn="urn:adsk.eagle:package:7452894/1"/>
+<part name="U2" library="parts-fibocom" library_urn="urn:adsk.eagle:library:7452888" deviceset="G510" device="" package3d_urn="urn:adsk.eagle:package:7452894/1"/>
 <part name="CON1" library="parts-attend" library_urn="urn:adsk.eagle:library:7445056" deviceset="115Q-BCA0" device="" package3d_urn="urn:adsk.eagle:package:7445054/2"/>
 <part name="BAT1" library="elna" library_urn="urn:adsk.eagle:library:7451320" deviceset="DCK-3R3E224U-E" device="" package3d_urn="urn:adsk.eagle:package:7451333/1"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="8.2pF"/>
@@ -22371,7 +22371,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <instance part="FRAME3" gate="G$1" x="0" y="0">
 <attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94"/>
 </instance>
-<instance part="U$1" gate="G$1" x="137.16" y="68.58">
+<instance part="U2" gate="G$1" x="137.16" y="68.58">
 <attribute name="NAME" x="127" y="109.22" size="1.27" layer="95"/>
 <attribute name="VALUE" x="127" y="106.68" size="1.27" layer="96"/>
 </instance>
@@ -22609,10 +22609,10 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <label x="7.62" y="25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VBAT@9"/>
+<pinref part="U2" gate="G$1" pin="VBAT@9"/>
 <wire x1="104.14" y1="78.74" x2="93.98" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="78.74" x2="93.98" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VBAT@10"/>
+<pinref part="U2" gate="G$1" pin="VBAT@10"/>
 <wire x1="93.98" y1="76.2" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
 <label x="88.9" y="78.74" size="1.778" layer="95"/>
 </segment>
@@ -22652,33 +22652,33 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <junction x="43.18" y="17.78"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND@7"/>
+<pinref part="U2" gate="G$1" pin="GND@7"/>
 <wire x1="104.14" y1="66.04" x2="93.98" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="GND@42"/>
+<pinref part="U2" gate="G$1" pin="GND@42"/>
 <wire x1="93.98" y1="66.04" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="63.5" x2="93.98" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="60.96" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="58.42" x2="99.06" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="GND@32"/>
+<pinref part="U2" gate="G$1" pin="GND@32"/>
 <wire x1="99.06" y1="58.42" x2="104.14" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="60.96" x2="93.98" y2="60.96" width="0.1524" layer="91"/>
 <junction x="93.98" y="60.96"/>
-<pinref part="U$1" gate="G$1" pin="GND@8"/>
+<pinref part="U2" gate="G$1" pin="GND@8"/>
 <wire x1="104.14" y1="63.5" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
 <junction x="93.98" y="63.5"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <junction x="99.06" y="58.42"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND@2"/>
-<pinref part="U$1" gate="G$1" pin="GND@1"/>
+<pinref part="U2" gate="G$1" pin="GND@2"/>
+<pinref part="U2" gate="G$1" pin="GND@1"/>
 <wire x1="129.54" y1="33.02" x2="127" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <junction x="127" y="33.02"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND@4"/>
-<pinref part="U$1" gate="G$1" pin="GND@5"/>
+<pinref part="U2" gate="G$1" pin="GND@4"/>
+<pinref part="U2" gate="G$1" pin="GND@5"/>
 <wire x1="139.7" y1="33.02" x2="142.24" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <junction x="142.24" y="33.02"/>
@@ -22753,13 +22753,13 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <net name="N$4" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="SIG"/>
-<pinref part="U$1" gate="G$1" pin="3_RF_ANT"/>
+<pinref part="U2" gate="G$1" pin="3_RF_ANT"/>
 <wire x1="134.62" y1="22.86" x2="134.62" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VDD" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="13_VDD"/>
+<pinref part="U2" gate="G$1" pin="13_VDD"/>
 <wire x1="104.14" y1="149.86" x2="96.52" y2="149.86" width="0.1524" layer="91"/>
 <label x="91.44" y="149.86" size="1.778" layer="95"/>
 <wire x1="96.52" y1="149.86" x2="88.9" y2="149.86" width="0.1524" layer="91"/>
@@ -22777,7 +22777,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </net>
 <net name="SIM_CD" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="27_SIM_CD"/>
+<pinref part="U2" gate="G$1" pin="27_SIM_CD"/>
 <wire x1="167.64" y1="101.6" x2="187.96" y2="101.6" width="0.1524" layer="91"/>
 <label x="175.26" y="101.6" size="1.778" layer="95"/>
 </segment>
@@ -22795,7 +22795,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </net>
 <net name="SIM_VCC" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="26_VSIM"/>
+<pinref part="U2" gate="G$1" pin="26_VSIM"/>
 <wire x1="167.64" y1="99.06" x2="187.96" y2="99.06" width="0.1524" layer="91"/>
 <label x="175.26" y="99.06" size="1.778" layer="95"/>
 </segment>
@@ -22810,7 +22810,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </net>
 <net name="SIM_RST" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="25_SIM_RST"/>
+<pinref part="U2" gate="G$1" pin="25_SIM_RST"/>
 <wire x1="167.64" y1="96.52" x2="187.96" y2="96.52" width="0.1524" layer="91"/>
 <label x="175.26" y="96.52" size="1.778" layer="95"/>
 </segment>
@@ -22825,7 +22825,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </net>
 <net name="SIM_CLK" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="24_SIM_CLK"/>
+<pinref part="U2" gate="G$1" pin="24_SIM_CLK"/>
 <wire x1="167.64" y1="93.98" x2="187.96" y2="93.98" width="0.1524" layer="91"/>
 <label x="175.26" y="93.98" size="1.778" layer="95"/>
 </segment>
@@ -22846,7 +22846,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </net>
 <net name="SIM_DAT" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="23_SIM_DATA"/>
+<pinref part="U2" gate="G$1" pin="23_SIM_DATA"/>
 <wire x1="167.64" y1="91.44" x2="187.96" y2="91.44" width="0.1524" layer="91"/>
 <label x="175.26" y="91.44" size="1.778" layer="95"/>
 </segment>
@@ -22866,14 +22866,14 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="40_UART2_TXD"/>
+<pinref part="U2" gate="G$1" pin="40_UART2_TXD"/>
 <wire x1="167.64" y1="147.32" x2="187.96" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="39_UART2_RXD"/>
+<pinref part="U2" gate="G$1" pin="39_UART2_RXD"/>
 <wire x1="167.64" y1="144.78" x2="198.12" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="L2" gate="G$1" pin="1"/>
 </segment>
@@ -22887,14 +22887,14 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </net>
 <net name="STATUS" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="38_LPG"/>
+<pinref part="U2" gate="G$1" pin="38_LPG"/>
 <wire x1="167.64" y1="142.24" x2="182.88" y2="142.24" width="0.1524" layer="91"/>
 <label x="177.8" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="14_POWER_ON"/>
+<pinref part="U2" gate="G$1" pin="14_POWER_ON"/>
 <wire x1="167.64" y1="53.34" x2="172.72" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 </segment>
@@ -22908,7 +22908,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <label x="205.74" y="121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="6_VBACKUP"/>
+<pinref part="U2" gate="G$1" pin="6_VBACKUP"/>
 <wire x1="104.14" y1="86.36" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
 <label x="86.36" y="86.36" size="1.778" layer="95"/>
 </segment>
@@ -22921,7 +22921,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </net>
 <net name="MIC_P" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="31_AU_MIC_P"/>
+<pinref part="U2" gate="G$1" pin="31_AU_MIC_P"/>
 <wire x1="167.64" y1="119.38" x2="185.42" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="119.38" x2="190.5" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="119.38" x2="200.66" y2="119.38" width="0.1524" layer="91"/>
@@ -22956,7 +22956,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </net>
 <net name="MIC_N" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="30_AU_MIC_N"/>
+<pinref part="U2" gate="G$1" pin="30_AU_MIC_N"/>
 <wire x1="167.64" y1="116.84" x2="172.72" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="116.84" x2="177.8" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="116.84" x2="200.66" y2="116.84" width="0.1524" layer="91"/>
@@ -22990,7 +22990,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </net>
 <net name="RCV_N" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="34_AU_RCV_N"/>
+<pinref part="U2" gate="G$1" pin="34_AU_RCV_N"/>
 <wire x1="167.64" y1="127" x2="203.2" y2="127" width="0.1524" layer="91"/>
 <label x="193.04" y="127" size="1.778" layer="95"/>
 </segment>
@@ -23020,7 +23020,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </net>
 <net name="RCV_P" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="33_AU_RCV_P"/>
+<pinref part="U2" gate="G$1" pin="33_AU_RCV_P"/>
 <wire x1="167.64" y1="124.46" x2="203.2" y2="124.46" width="0.1524" layer="91"/>
 <label x="193.04" y="124.46" size="1.778" layer="95"/>
 </segment>
@@ -23070,13 +23070,13 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="15_UART1_DTR"/>
+<pinref part="U2" gate="G$1" pin="15_UART1_DTR"/>
 <wire x1="167.64" y1="60.96" x2="190.5" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="41_WAKE_UP"/>
+<pinref part="U2" gate="G$1" pin="41_WAKE_UP"/>
 <wire x1="167.64" y1="149.86" x2="175.26" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="149.86" x2="177.8" y2="149.86" width="0.1524" layer="91"/>
@@ -23095,7 +23095,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="37_EMERG_RST"/>
+<pinref part="U2" gate="G$1" pin="37_EMERG_RST"/>
 <wire x1="167.64" y1="139.7" x2="170.18" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 </segment>
@@ -23109,14 +23109,14 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="19_UART1_TXD"/>
+<pinref part="U2" gate="G$1" pin="19_UART1_TXD"/>
 <pinref part="L3" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="71.12" x2="175.26" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="18_UART1_RXD"/>
+<pinref part="U2" gate="G$1" pin="18_UART1_RXD"/>
 <pinref part="L4" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="68.58" x2="187.96" y2="68.58" width="0.1524" layer="91"/>
 </segment>
