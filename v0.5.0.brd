@@ -170,7 +170,7 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyOTQ5MTcz" projecturn="a.cGVyc29uYWw6dWUyOTQ5MTczIzIwMTgwNzEzMTM5ODgwOTMx" f3durn="urn:adsk.wipprod:dm.lineage:KpniPh4OR1qPSmEX2dXWjg" pcbguid="fb500a47-102c-4620-a8ef-562f5931e4cf" lastpulledtime="" lastsyncedchangeguid="99dcd8d5-50c4-15a0-3149-e88f9fb763cb"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOTQ5MTcz" projecturn="a.cGVyc29uYWw6dWUyOTQ5MTczIzIwMTgwNzEzMTM5ODgwOTMx" f3durn="urn:adsk.wipprod:dm.lineage:KpniPh4OR1qPSmEX2dXWjg" pcbguid="fb500a47-102c-4620-a8ef-562f5931e4cf" lastpulledtime="" lastsyncedchangeguid="c8a4aabe-6a56-a0f5-44c2-4c47d2555967"/>
 <plain>
 <wire x1="3" y1="40" x2="47" y2="40" width="0" layer="20"/>
 <wire x1="47" y1="0" x2="3" y2="0" width="0" layer="20"/>
@@ -2339,7 +2339,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="42.7" y="32.809" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k" x="27.9" y="1" smashed="yes">
-<attribute name="NAME" x="21.365" y="0.435" size="0.8" layer="25" font="vector" ratio="16" rot="R180"/>
+<attribute name="NAME" x="21.335" y="0.465" size="0.8" layer="25" font="vector" ratio="16"/>
 <attribute name="SPICEPREFIX" value="R" x="27.9" y="1" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="27.265" y="-0.905" size="1.27" layer="27"/>
 </element>
@@ -2370,12 +2370,12 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="28.1" y="32.5" size="1.2" layer="27" font="vector" ratio="16" rot="R90" display="off"/>
 <attribute name="VALUE" x="30.005" y="31.865" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="U$1" library="parts-onsemi" library_urn="urn:adsk.eagle:library:7659655" package="SOT95P240X110-3" package3d_urn="urn:adsk.eagle:package:8169088/1" value="2N7002" x="29.6" y="3.65" smashed="yes" rot="R270">
-<attribute name="NAME" x="32.2436" y="3.65" size="1.27" layer="25" rot="R270" align="bottom-center"/>
+<element name="T1" library="parts-onsemi" library_urn="urn:adsk.eagle:library:7659655" package="SOT95P240X110-3" package3d_urn="urn:adsk.eagle:package:8169088/1" value="2N7002" x="29.6" y="3.65" smashed="yes" rot="R270">
+<attribute name="NAME" x="31.2436" y="2.65" size="0.8" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="27.3964" y="3.65" size="1.27" layer="27" rot="R270" align="top-center"/>
 </element>
-<element name="U$2" library="parts-onsemi" library_urn="urn:adsk.eagle:library:7659655" package="SOT95P240X110-3" package3d_urn="urn:adsk.eagle:package:8169088/1" value="2N7002" x="32.9" y="3.65" smashed="yes" rot="R270">
-<attribute name="NAME" x="35.5436" y="3.65" size="1.27" layer="25" rot="R270" align="bottom-center"/>
+<element name="T2" library="parts-onsemi" library_urn="urn:adsk.eagle:library:7659655" package="SOT95P240X110-3" package3d_urn="urn:adsk.eagle:package:8169088/1" value="2N7002" x="32.9" y="3.65" smashed="yes" rot="R270">
+<attribute name="NAME" x="32.3436" y="2.65" size="0.8" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="30.6964" y="3.65" size="1.27" layer="27" rot="R270" align="top-center"/>
 </element>
 <element name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="" x="8.2" y="2.4" smashed="yes" rot="R270">
@@ -2544,8 +2544,8 @@ design rules under a new name.</description>
 <via x="17" y="34" extent="1-16" drill="0.6"/>
 <via x="22.05" y="34.15" extent="1-16" drill="0.6"/>
 <via x="49.05" y="37.15" extent="1-16" drill="0.6"/>
-<contactref element="U$1" pad="2"/>
-<contactref element="U$2" pad="2"/>
+<contactref element="T1" pad="2"/>
+<contactref element="T2" pad="2"/>
 <via x="19.8" y="24.2" extent="1-16" drill="0.6"/>
 <contactref element="C22" pad="2"/>
 <contactref element="C23" pad="2"/>
@@ -2614,7 +2614,7 @@ design rules under a new name.</description>
 <contactref element="U2" pad="38_LPG"/>
 <wire x1="36.75" y1="6.65" x2="36.75" y2="6.25" width="0.3" layer="1"/>
 <wire x1="35.9" y1="5.4" x2="36.75" y2="6.25" width="0.3" layer="1"/>
-<contactref element="U$2" pad="1"/>
+<contactref element="T2" pad="1"/>
 <wire x1="33.85" y1="4.6745" x2="34.5755" y2="5.4" width="0.3" layer="1"/>
 <wire x1="34.5755" y1="5.4" x2="35.9" y2="5.4" width="0.3" layer="1"/>
 </signal>
@@ -2630,7 +2630,7 @@ design rules under a new name.</description>
 <signal name="N$6">
 <contactref element="LED1" pad="C"/>
 <wire x1="33.4" y1="1" x2="33.4" y2="1.9094" width="0.3" layer="1"/>
-<contactref element="U$2" pad="3"/>
+<contactref element="T2" pad="3"/>
 <wire x1="33.4" y1="1.9094" x2="32.9" y2="2.4094" width="0.3" layer="1"/>
 <wire x1="32.9" y1="2.4094" x2="32.9" y2="2.6255" width="0.3" layer="1"/>
 </signal>
@@ -2899,7 +2899,7 @@ design rules under a new name.</description>
 <wire x1="28.3" y1="2.5" x2="28.316" y2="2.484" width="0.3" layer="1"/>
 <wire x1="27.4" y1="1" x2="27.4" y2="1.6" width="0.3" layer="1"/>
 <wire x1="27.4" y1="1.6" x2="28.3" y2="2.5" width="0.3" layer="1"/>
-<contactref element="U$1" pad="3"/>
+<contactref element="T1" pad="3"/>
 <wire x1="29.6" y1="2.6255" x2="29.4745" y2="2.5" width="0.3" layer="1"/>
 <wire x1="29.4745" y1="2.5" x2="28.3" y2="2.5" width="0.3" layer="1"/>
 </signal>
@@ -2916,7 +2916,7 @@ design rules under a new name.</description>
 <wire x1="27.9" y1="27.8" x2="27.3" y2="28.4" width="0.3" layer="1"/>
 <via x="28.1" y="27.8" extent="1-16" drill="0.6"/>
 <wire x1="27.3" y1="31.2" x2="27.3" y2="28.4" width="0.3" layer="1"/>
-<contactref element="U$1" pad="1"/>
+<contactref element="T1" pad="1"/>
 <wire x1="30.55" y1="4.6745" x2="31.2" y2="5.3245" width="0.3" layer="1"/>
 <wire x1="31.2" y1="5.3245" x2="31.2" y2="5.6" width="0.3" layer="1"/>
 <wire x1="27.9" y1="21.7" x2="25.4" y2="19.2" width="0.3" layer="16"/>
