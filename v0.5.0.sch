@@ -4801,12 +4801,6 @@ Source: AVX .. aphvc.pdf</description>
 <packageinstance name="R0402"/>
 </packageinstances>
 </package3d>
-<package3d name="R0603" urn="urn:adsk.eagle:package:23555/2" type="model" library_version="7">
-<description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R0603"/>
-</packageinstances>
-</package3d>
 <package3d name="R0805" urn="urn:adsk.eagle:package:23553/2" type="model" library_version="7">
 <description>RESISTOR</description>
 <packageinstances>
@@ -4873,27 +4867,6 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor/dcrcwfre.pdf</description>
 <packageinstances>
 <packageinstance name="R6332W"/>
-</packageinstances>
-</package3d>
-<package3d name="M0805" urn="urn:adsk.eagle:package:23556/1" type="box" library_version="7">
-<description>RESISTOR
-MELF 0.10 W</description>
-<packageinstances>
-<packageinstance name="M0805"/>
-</packageinstances>
-</package3d>
-<package3d name="M1206" urn="urn:adsk.eagle:package:23566/1" type="box" library_version="7">
-<description>RESISTOR
-MELF 0.25 W</description>
-<packageinstances>
-<packageinstance name="M1206"/>
-</packageinstances>
-</package3d>
-<package3d name="M1406" urn="urn:adsk.eagle:package:23569/1" type="box" library_version="7">
-<description>RESISTOR
-MELF 0.12 W</description>
-<packageinstances>
-<packageinstance name="M1406"/>
 </packageinstances>
 </package3d>
 <package3d name="M3216" urn="urn:adsk.eagle:package:23563/1" type="box" library_version="7">
@@ -5924,6 +5897,33 @@ Metric Code Size 4564</description>
 <packageinstance name="C1825K"/>
 </packageinstances>
 </package3d>
+<package3d name="R0603" urn="urn:adsk.eagle:package:23555/3" type="model" library_version="8">
+<description>RESISTOR</description>
+<packageinstances>
+<packageinstance name="R0603"/>
+</packageinstances>
+</package3d>
+<package3d name="M0805" urn="urn:adsk.eagle:package:23556/2" type="model" library_version="8">
+<description>RESISTOR
+MELF 0.10 W</description>
+<packageinstances>
+<packageinstance name="M0805"/>
+</packageinstances>
+</package3d>
+<package3d name="M1206" urn="urn:adsk.eagle:package:23566/2" type="model" library_version="8">
+<description>RESISTOR
+MELF 0.25 W</description>
+<packageinstances>
+<packageinstance name="M1206"/>
+</packageinstances>
+</package3d>
+<package3d name="M1406" urn="urn:adsk.eagle:package:23569/2" type="model" library_version="8">
+<description>RESISTOR
+MELF 0.12 W</description>
+<packageinstances>
+<packageinstance name="M1406"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="R-EU" urn="urn:adsk.eagle:symbol:23042/1" library_version="7">
@@ -5948,7 +5948,7 @@ Metric Code Size 4564</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="R-EU_" urn="urn:adsk.eagle:component:23791/17" prefix="R" uservalue="yes" library_version="7">
+<deviceset name="R-EU_" urn="urn:adsk.eagle:component:23791/18" prefix="R" uservalue="yes" library_version="8">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="R-EU" x="0" y="0"/>
@@ -5974,7 +5974,7 @@ Metric Code Size 4564</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23555/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23555/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -6268,7 +6268,7 @@ Metric Code Size 4564</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23556/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23556/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -6282,7 +6282,7 @@ Metric Code Size 4564</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23566/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23566/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -6296,7 +6296,7 @@ Metric Code Size 4564</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23569/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23569/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -10202,7 +10202,7 @@ Source: www.kingbright.com</description>
 </library>
 <library name="parts-fibocom" urn="urn:adsk.eagle:library:7452888">
 <packages>
-<package name="G510" urn="urn:adsk.eagle:footprint:7452890/1" library_version="1">
+<package name="G510" urn="urn:adsk.eagle:footprint:7452890/2" library_version="6">
 <smd name="6_VBACKUP" x="2.45" y="-10.85" dx="0.9" dy="1.7" layer="1" rot="R180"/>
 <smd name="7_GND" x="3.85" y="-10.85" dx="0.9" dy="1.7" layer="1" rot="R180"/>
 <smd name="8_GND" x="5.25" y="-10.85" dx="0.9" dy="1.7" layer="1" rot="R180"/>
@@ -10245,20 +10245,34 @@ Source: www.kingbright.com</description>
 <smd name="34_AU_RCV_N" x="-9.85" y="6.05" dx="0.9" dy="1.7" layer="1" rot="R90"/>
 <smd name="33_AU_RCV_P" x="-9.85" y="7.45" dx="0.9" dy="1.7" layer="1" rot="R90"/>
 <smd name="32_GND" x="-9.85" y="8.85" dx="0.9" dy="1.7" layer="1" rot="R90"/>
-<wire x1="-10.1" y1="-11.1" x2="-10.1" y2="10.5" width="0.2048" layer="21"/>
-<wire x1="-10.1" y1="10.5" x2="-9.5" y2="11.1" width="0.2048" layer="21" curve="90"/>
-<wire x1="-9.5" y1="11.1" x2="9.5" y2="11.1" width="0.2048" layer="21"/>
-<wire x1="9.5" y1="11.1" x2="10.1" y2="10.5" width="0.2048" layer="21" curve="90"/>
-<wire x1="10.1" y1="10.5" x2="10.1" y2="-10.5" width="0.2048" layer="21"/>
-<wire x1="10.1" y1="-10.5" x2="9.5" y2="-11.1" width="0.2048" layer="21" curve="90"/>
-<wire x1="9.5" y1="-11.1" x2="-10.1" y2="-11.1" width="0.2048" layer="21"/>
-<circle x="-5.25" y="-7.6" radius="1.8" width="0" layer="20"/>
+<wire x1="-10.1" y1="-11.1" x2="-10.1" y2="10.5" width="0.2048" layer="51"/>
+<wire x1="-10.1" y1="10.5" x2="-9.5" y2="11.1" width="0.2048" layer="51" curve="90"/>
+<wire x1="-9.5" y1="11.1" x2="9.5" y2="11.1" width="0.2048" layer="51"/>
+<wire x1="9.5" y1="11.1" x2="10.1" y2="10.5" width="0.2048" layer="51" curve="90"/>
+<wire x1="10.1" y1="10.5" x2="10.1" y2="-10.5" width="0.2048" layer="51"/>
+<wire x1="10.1" y1="-10.5" x2="9.5" y2="-11.1" width="0.2048" layer="51" curve="90"/>
+<wire x1="9.5" y1="-11.1" x2="-10.1" y2="-11.1" width="0.2048" layer="51"/>
+<wire x1="9.6" y1="11.4" x2="8.8" y2="11.4" width="0.3" layer="21"/>
+<wire x1="1.6" y1="11.4" x2="-1.6" y2="11.4" width="0.3" layer="21"/>
+<wire x1="-8.8" y1="11.4" x2="-9.6" y2="11.4" width="0.3" layer="21"/>
+<wire x1="-10.4" y1="9.6" x2="-10.4" y2="10.6" width="0.3" layer="21"/>
+<wire x1="-10.4" y1="2.4" x2="-10.4" y2="-1" width="0.3" layer="21"/>
+<wire x1="-10.4" y1="-9.6" x2="-10.4" y2="-11.4" width="0.3" layer="21"/>
+<wire x1="-10.4" y1="-11.4" x2="-8.8" y2="-11.4" width="0.3" layer="21"/>
+<wire x1="-1.6" y1="-11.4" x2="1.6" y2="-11.4" width="0.3" layer="21"/>
+<wire x1="8.8" y1="-11.4" x2="9.6" y2="-11.4" width="0.3" layer="21"/>
+<wire x1="10.4" y1="-9.6" x2="10.4" y2="-10.6" width="0.3" layer="21"/>
+<wire x1="10.4" y1="9.6" x2="10.4" y2="10.6" width="0.3" layer="21"/>
+<wire x1="10.4" y1="10.6" x2="9.6" y2="11.4" width="0.3" layer="21" curve="-90"/>
+<wire x1="-10.4" y1="10.6" x2="-9.6" y2="11.4" width="0.3" layer="21" curve="90"/>
+<wire x1="9.6" y1="-11.4" x2="10.4" y2="-10.6" width="0.3" layer="21" curve="-90"/>
 <text x="-9.35" y="13" size="1.27" layer="25">&gt;NAME</text>
 <text x="-9.35" y="-14" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-5.2" y="-7.6" radius="2" width="0" layer="41"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="G510" urn="urn:adsk.eagle:package:7452894/2" type="model" library_version="4">
+<package3d name="G510" urn="urn:adsk.eagle:package:7452894/3" type="model" library_version="6">
 <packageinstances>
 <packageinstance name="G510"/>
 </packageinstances>
@@ -10318,7 +10332,7 @@ Source: www.kingbright.com</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="G510" urn="urn:adsk.eagle:component:7452896/3" library_version="4">
+<deviceset name="G510" urn="urn:adsk.eagle:component:7452896/4" library_version="6">
 <gates>
 <gate name="G$1" symbol="FIBOCOM_G510_GSM" x="2.54" y="-25.4"/>
 </gates>
@@ -10369,7 +10383,7 @@ Source: www.kingbright.com</description>
 <connect gate="G$1" pin="VBAT@9" pad="9_VBAT"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7452894/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7452894/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -10726,7 +10740,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <smd name="2" x="0.4525" y="0" dx="0.4951" dy="0.32" layer="1"/>
 <text x="-1.27" y="0.601" size="0.8" layer="25" font="vector" ratio="16">&gt;NAME</text>
 </package>
-<package name="SOT95P240X110-3" urn="urn:adsk.eagle:footprint:8169090/1" library_version="10">
+<package name="SOT95P240X110-3" urn="urn:adsk.eagle:footprint:8169090/1" library_version="11">
 <description>3-SOT23, 0.95 mm pitch, 2.40 mm span, 2.90 X 1.30 X 1.10 mm body
 &lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.40 mm span with body size 2.90 X 1.30 X 1.10 mm&lt;/p&gt;</description>
 <circle x="-1.204" y="1.7586" radius="0.25" width="0" layer="21"/>
@@ -10753,7 +10767,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 <packageinstance name="SOD1006X40"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT95P240X110-3" urn="urn:adsk.eagle:package:8169088/1" type="model" library_version="10">
+<package3d name="SOT95P240X110-3" urn="urn:adsk.eagle:package:8169088/1" type="model" library_version="11">
 <description>3-SOT23, 0.95 mm pitch, 2.40 mm span, 2.90 X 1.30 X 1.10 mm body
 &lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.40 mm span with body size 2.90 X 1.30 X 1.10 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -10846,7 +10860,7 @@ Source: http://www.taiwansemi.com .. 5205_0409c.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N7002" urn="urn:adsk.eagle:component:8169094/1" library_version="10">
+<deviceset name="2N7002" urn="urn:adsk.eagle:component:8169094/1" library_version="11">
 <gates>
 <gate name="G$1" symbol="N-MOSFET" x="-2.54" y="0"/>
 </gates>
@@ -10971,6 +10985,38 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.35" x2="0.1999" y2="0.35" layer="35"/>
 </package>
+<package name="C0603" urn="urn:adsk.eagle:footprint:8309186/2" library_version="25">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<wire x1="-0.8" y1="0.7" x2="0.8" y2="0.7" width="0.2" layer="21"/>
+<wire x1="-0.8" y1="-0.7" x2="0.8" y2="-0.7" width="0.2" layer="21"/>
+<smd name="1" x="-0.85" y="0" dx="0.8" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="0.8" dy="1" layer="1"/>
+<text x="-0.635" y="1.035" size="0.8" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="SMC_A" urn="urn:adsk.eagle:footprint:8309163/1" library_version="25">
+<description>&lt;b&gt;Chip Capacitor &lt;/b&gt; Polar tantalum capacitors with solid electrolyte&lt;p&gt;
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198&lt;br&gt;
+Source: www.farnell.com/datasheets/247.pdf</description>
+<wire x1="-1.45" y1="0.75" x2="1.45" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="1.45" y1="0.75" x2="1.45" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="1.45" y1="-0.75" x2="-1.45" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="-1.45" y1="-0.75" x2="-1.45" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="-1.6" y1="0.95" x2="1.5" y2="0.95" width="0.24" layer="21"/>
+<wire x1="-1.5" y1="-0.95" x2="1.5" y2="-0.95" width="0.24" layer="21"/>
+<wire x1="-0.6" y1="0.6" x2="-0.6" y2="-0.6" width="0.24" layer="21"/>
+<wire x1="-0.4" y1="0.6" x2="-0.4" y2="-0.6" width="0.24" layer="21"/>
+<smd name="+" x="-1.5" y="0" dx="1.2" dy="1.4" layer="1"/>
+<smd name="-" x="1.5" y="0" dx="1.2" dy="1.4" layer="1" rot="R180"/>
+<text x="-1.6" y="1" size="0.8" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<rectangle x1="-1.6" y1="-0.6" x2="-1.4" y2="0.6" layer="51"/>
+<rectangle x1="1.4" y1="-0.6" x2="1.6" y2="0.6" layer="51" rot="R180"/>
+<rectangle x1="-1.45" y1="-0.75" x2="-0.8" y2="0.75" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="C0402K" urn="urn:adsk.eagle:package:8170392/1" type="model" library_version="14">
@@ -11012,6 +11058,20 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <description>&lt;b&gt;INDUCTOR 0402 EIA (1005 Metric)&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="L0402"/>
+</packageinstances>
+</package3d>
+<package3d name="C0603" urn="urn:adsk.eagle:package:8309187/3" type="model" library_version="25">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="C0603"/>
+</packageinstances>
+</package3d>
+<package3d name="SMC_A" urn="urn:adsk.eagle:package:8309164/2" type="model" library_version="25">
+<description>&lt;b&gt;Chip Capacitor &lt;/b&gt; Polar tantalum capacitors with solid electrolyte&lt;p&gt;
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198&lt;br&gt;
+Source: www.farnell.com/datasheets/247.pdf</description>
+<packageinstances>
+<packageinstance name="SMC_A"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -11057,7 +11117,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CAP-" urn="urn:adsk.eagle:component:8154557/7" prefix="C" uservalue="yes" library_version="14">
+<deviceset name="CAP-" urn="urn:adsk.eagle:component:8154557/10" prefix="C" uservalue="yes" library_version="25">
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
@@ -11107,9 +11167,24 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </technology>
 </technologies>
 </device>
+<device name="0603" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8309187/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PACKAGE" value="0603" constant="no"/>
+<attribute name="RATING" value="10V" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
-<deviceset name="CAP-POL-" urn="urn:adsk.eagle:component:8154558/4" prefix="C" uservalue="yes" library_version="16">
+<deviceset name="CAP-POL-" urn="urn:adsk.eagle:component:8154558/6" prefix="C" uservalue="yes" library_version="25">
 <gates>
 <gate name="G$1" symbol="CPOL" x="0" y="2.54"/>
 </gates>
@@ -11140,6 +11215,21 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <technologies>
 <technology name="">
 <attribute name="PACKAGE" value="SMC" constant="no"/>
+<attribute name="RATING" value="6V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SMA" package="SMC_A">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8309164/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PACKAGE" value="SMA" constant="no"/>
 <attribute name="RATING" value="6V" constant="no"/>
 </technology>
 </technologies>
@@ -11367,7 +11457,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="180"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U2" library="parts-fibocom" library_urn="urn:adsk.eagle:library:7452888" deviceset="G510" device="" package3d_urn="urn:adsk.eagle:package:7452894/2"/>
+<part name="U2" library="parts-fibocom" library_urn="urn:adsk.eagle:library:7452888" deviceset="G510" device="" package3d_urn="urn:adsk.eagle:package:7452894/3"/>
 <part name="CON1" library="parts-attend" library_urn="urn:adsk.eagle:library:7445056" deviceset="115Q-BCA0" device="" package3d_urn="urn:adsk.eagle:package:7445054/2"/>
 <part name="BAT1" library="parts-elna" library_urn="urn:adsk.eagle:library:8169083" deviceset="DCK-3R3E224U-E" device="" package3d_urn="urn:adsk.eagle:package:7451333/2"/>
 <part name="C1" library="parts-passives" library_urn="urn:adsk.eagle:library:8154151" deviceset="CAP-" device="0402" package3d_urn="urn:adsk.eagle:package:8170392/1" value="8.2pF"/>
