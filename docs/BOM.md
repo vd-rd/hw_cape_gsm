@@ -1,5 +1,7 @@
 ## Revision 1.0 BOM
 
+[Complete BOM and example parts](https://docs.google.com/spreadsheets/d/138vCS7z_F9O98r_FUHqWK47GeZZgn0T5hS3GLevilZI/edit?usp=sharing)
+
 | # | Part count | Part descriptor | Part name | Part type | Part description | Observations |
 | ------ | ------ | ------ |------ | ------ | ------ | ------ |
 | 1 | 1 | U2 | FIBOCOM G510 | IC |
