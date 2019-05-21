@@ -11764,9 +11764,9 @@ grid 7.5 mm, outline 3.2 x 10.3 mm</description>
 <attribute name="NAME" x="189.0014" y="163.83" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="193.802" y="163.83" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="L3" gate="G$1" x="190.5" y="83.82" smashed="yes">
-<attribute name="NAME" x="184.658" y="84.0486" size="1.778" layer="95"/>
-<attribute name="VALUE" x="186.69" y="80.518" size="1.778" layer="96"/>
+<instance part="L3" gate="G$1" x="195.58" y="83.82" smashed="yes">
+<attribute name="NAME" x="189.738" y="84.0486" size="1.778" layer="95"/>
+<attribute name="VALUE" x="191.77" y="80.518" size="1.778" layer="96"/>
 </instance>
 <instance part="L4" gate="G$1" x="203.2" y="81.28" smashed="yes">
 <attribute name="NAME" x="197.104" y="81.5086" size="1.778" layer="95"/>
@@ -12323,24 +12323,36 @@ grid 7.5 mm, outline 3.2 x 10.3 mm</description>
 <label x="48.26" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="TXD" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="19_UART1_TXD"/>
 <pinref part="L3" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="83.82" x2="185.42" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="83.82" x2="190.5" y2="83.82" width="0.1524" layer="91"/>
+<label x="182.88" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SV3" gate="G$1" pin="4"/>
+<wire x1="116.84" y1="17.78" x2="124.46" y2="17.78" width="0.1524" layer="91"/>
+<label x="121.92" y="17.78" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="RXD" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="18_UART1_RXD"/>
 <pinref part="L4" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="81.28" x2="198.12" y2="81.28" width="0.1524" layer="91"/>
+<label x="182.88" y="81.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SV3" gate="G$1" pin="3"/>
+<wire x1="116.84" y1="15.24" x2="124.46" y2="15.24" width="0.1524" layer="91"/>
+<label x="121.92" y="15.24" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="BUS_UART2_TXD" class="0">
 <segment>
 <pinref part="L3" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="83.82" x2="220.98" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="83.82" x2="220.98" y2="83.82" width="0.1524" layer="91"/>
 <label x="210.82" y="83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -12484,20 +12496,6 @@ grid 7.5 mm, outline 3.2 x 10.3 mm</description>
 <pinref part="SV2" gate="1" pin="19"/>
 <wire x1="45.72" y1="129.54" x2="58.42" y2="129.54" width="0.1524" layer="91"/>
 <label x="48.26" y="129.54" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="3" class="0">
-<segment>
-<pinref part="SV3" gate="G$1" pin="3"/>
-<wire x1="116.84" y1="15.24" x2="124.46" y2="15.24" width="0.1524" layer="91"/>
-<label x="121.92" y="15.24" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="4" class="0">
-<segment>
-<pinref part="SV3" gate="G$1" pin="4"/>
-<wire x1="116.84" y1="17.78" x2="124.46" y2="17.78" width="0.1524" layer="91"/>
-<label x="121.92" y="17.78" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 </nets>
