@@ -7,10 +7,10 @@ The board features two headers for interfacing with the module. One is the stand
 | 1 | GND | Board ground reference |
 | 2 | VSYS | +3V3 regulated supply | Used as power supply for the node |
 | 13 | CAPE_EN1 | PWR signal | Used to power cycle the module |
-| 15 | UART1_TXD | |
-| 16 | UART1_RXD | |
-| 23 | UART2_TXD | |
-| 24 | UART2_RXD | |
+| 15 | UART2_TXD | |
+| 16 | UART2_RXD | |
+| 23 | UART1_RXD | |
+| 24 | UART1_TXD | |
 
 Breakout header:
 
@@ -18,9 +18,9 @@ Breakout header:
 | ------ | ------ | ------ | ------ |
 | 1 | GND | Board ground reference |
 | 2 | VSYS | +3V3 regulated supply | Used as power supply for the node |
-| 13 | CAPE_EN1 | PWR signal | Used to power cycle the module |
-| 15 | UART1_TXD | |
-| 16 | UART1_RXD | |
+| 3 | UART1_RXD | |
+| 4 | UART1_TXD | |
+| 5 | CAPE_EN1 | PWR signal | Used to power cycle the module |
 
 ## Observations
  * +3v3 signal should be able to sustain 2A peak signals with a medium consumption of 100mA.
