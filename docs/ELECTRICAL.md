@@ -12,6 +12,8 @@ The board features two headers for interfacing with the module. One is the stand
 | 23 | UART2_TXD | |
 | 24 | UART2_RXD | |
 
+Breakout header:
+
 | Pin | Signal | Description | Observations |
 | ------ | ------ | ------ | ------ |
 | 1 | GND | Board ground reference |
@@ -20,7 +22,7 @@ The board features two headers for interfacing with the module. One is the stand
 | 15 | UART1_TXD | |
 | 16 | UART1_RXD | |
 
-Observations:
+## Observations
  * +3v3 signal should be able to sustain 2A peak signals with a medium consumption of 100mA.
  * PWR pin has an internal pull-up. Pull low for at least 100ms to wake the module or power down.
  * UART1 is the main communication interface. It supports AT commands for various functions.
