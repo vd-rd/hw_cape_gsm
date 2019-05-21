@@ -3,6 +3,12 @@
 ## Description
 Open hardware module for providing communications support via GPRS to embedded projects. The module can use any 2G network operating in the 850/900MHz or 1800/1900MHz spectrum. The modem features an audio link for voice calls and a TCP/IP stack for data transfer.
 
+## Documentation
+
+ Documentation for the module is available in the [docs folder](docs).
+ 
+ Various resources used to design the module are available in the [resources folder](resources).
+
 ### Features
  * MicroSIM connector
  * 3.5mm jack with microphone
